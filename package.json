@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinsmith-fullstackdev/bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinsmith-fullstackdev/bamazon/issues"
+  },
+  "homepage": "https://github.com/justinsmith-fullstackdev/bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.1.0",
+    "is-natural-number": "^4.0.1",
+    "mysql": "^2.16.0"
+  }
+}
