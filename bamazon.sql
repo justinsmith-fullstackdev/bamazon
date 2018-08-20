@@ -50,37 +50,24 @@ primary key(department_id)
  
  SELECT * FROM departments;
  INSERT INTO departments(department_name, over_head_costs)
- VALUES ("Jewelry", 5000.00),
- ("Furniture", 6000.00),
- ("China", 4000.00),
- ("Womenswear", 4200.00),
- ("Menswear", 3800.00),
- ("Shoes", 2900.00),
- ("Bedding", 4000.00),
- ("Formalwear", 4000.00),
- ("Accessories", 1900.00);
+ VALUES ("Electronics", 5000.00),
+ ("Video Games", 6000.00),
+ ("Foods", 4000.00);
  
  SELECT * FROM products;
  INSERT INTO products (product_name, department_name, price, stock_quantity)
- VALUES ("Diamond Bracelet","Jewelry",5000.00, 10),
-("Sofa", "Furniture",  2000.00, 3),
-("Duvet Cover", "Bedding", 189.99, 10),
-("Limoge Place Setting", "China", 189.99, 5),
-("Evening Gown", "Formalwear", 699.99, 4),
-("Birkenstocks", "Shoes",  799.99, 1),
-("Michael Kors Tote", "Accessories", 269.99, 5),
-("Hermes Tie", "Accessories", 239.99, 2),
-("UnderArmour Socks", "Accessories", 9.99, 4),
-("Golf Shirt", "Menswear", 79.99, 2);
+ VALUES ("Xbox One","Electronics",299.00, 10),
+("Nintendo Switch", "Electronics",  299.99, 10),
+("Super Smash Bros Ultimate", "Video Games", 79.99, 9),
+("Call  of Duty", "Video Games", 69.99, 3),
+("Elder Scrolls: Skyrim", "Video Games", 39.99, 2),
+("PlayStation 4", "Electronics",  39.99, 22),
+("Nintendo 3DS", "Electronics", 199.99, 15),
+("Gears of Wars 4", "Video Games", 79.99, 40),
+("Tales of Symphonia - ReMastered", "Video Games", 129.99, 25),
+("Banjo Tooie - ReMastered", "Video Games", 32.00, 50);
+("Just Cause 4", "Video Games", 39.99, 100);
 
-DELETE FROM departments
-WHERE department_id > 10;
-
-SELECT * FROM departments;
- 
- UPDATE products
-SET department_name = "Accessories"
-WHERE item_id = 8;
 
 SELECT department_name, SUM(product_sales) AS department_sales
 FROM products 
