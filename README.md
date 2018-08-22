@@ -1,3 +1,4 @@
+## BAMAZON
 # Purpose 
 This is a Amazon like store fornt built using MySQL, node.js and javascript skills.
 The app will take in orders from customers and deplete stock from the store's inventory. The app will also track product sales across the store's departments and then provide a summary of the highest-grossing departments in the store.
