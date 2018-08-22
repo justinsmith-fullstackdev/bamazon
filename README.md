@@ -15,7 +15,7 @@ Once the purchase is made the app will provide the user witha total bill of sale
 
 Note: The app will also dynamically update its database to track product sales.
 
-**Note: please see bamazon screenshots word document for visual walkthrough**
+**Note: For visual screenshots of app and database see word doc titled:** `<Actual_Bamazon Screenshots for user workflows.docx >`
 
 ## 2) Manager View 
 By running Node application called `<bamazonManager.js>`, a list of menu options will be made available for the Manager.
@@ -26,7 +26,7 @@ By running Node application called `<bamazonManager.js>`, a list of menu options
    * If a manager selects `<Add to Inventory>`, the app will display a prompt that will let the manager "add more" of any item currently in the store.
    * If a manager selects `<Add New Product>`, it will allow the manager to add a completely new product to the store.
 
-**Note: please see bamazon screenshots word document for visual walkthrough**
+**Note: For visual screenshots of app and database see word doc titled:** `<Actual_Bamazon Screenshots for user workflows.docx >`
 
 
 ## 3) Supervisor View
@@ -35,4 +35,4 @@ By running Node application called `<bamazonSupervisor.js>`, a list of menu opti
   * When a supervisor selects `<View Product Sales by Department>`, the app will display a summarized table in their terminal/bash window.
   * When a supervisor selects `<Create New Department>`, the app will display prompts to take in the new department name and feilds
   
-**Note: please see bamazon screenshots word document for visual walkthrough**
+**Note: For visual screenshots of app and database see word doc titled:** `<Actual_Bamazon Screenshots for user workflows.docx >`
